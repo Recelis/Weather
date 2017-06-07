@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="stylesheet" type="text/css" href="css/weather.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
+    <title>Weather API</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="./weather.js"></script>
+
+  </head>
+  <body class = "formatting">
+    <div class = "container">
+      <div class = "titles">
+      <div class = "row">
+        <div class="col-xs-12"><h1 class = "titleClass">geeODee</h1></div>
+      </div>
+      <div class = "row">
+        <div class = "col-xs-12 subTitleClass"><h2></h2></div>
+      </div>  
+      </div>
+      <div class = "location">
+        <div class = "row">  
+          <div class = "col-xs-6"> <p id = "city"> city</p> </div>
+          <div class = "col-xs-6"> <p id = "country"> country </p> </div>
+        </div>
+      </div>
+      <div class = "weather">
+        <div class = "row">  
+          <div class = "col-xs-4"> <p id = "condition"> condition</p> </div> 
+          <div class = "col-xs-4"> <div class = "wrapper"><button class = "toggle"><p class = "temperature"> temperature</p></button></div></div>
+          <div class = "col-xs-4"> <p id = "humidity"> humidity</p></div>
+        </div>
+      </div>
+      <div class = "row">
+        <div class = "col-xs-6"> <p class = "ctime"></p> </div>
+        <div class = "col-xs-6"> <p class = "cdate"></p> </div>
+      </div>
+      <div>
+          <p style="text-align:center" id = "manifesto"></p> 
+      </div>
+      <div class = "gumption"><a href = "https://recelis.github.io/questionaire/"><button class = "btn">GUMPTION TRAP QUESTIONAIRE</button></a></div>
+      <div class = "gumption"><a href = "https://calendar.google.com/calendar/render#main_7"><button class = "btn">Google Calendar</button></a></div>
+    </div>
+  </body>
+</html>
